@@ -1,5 +1,4 @@
-import com.employee.models.ServiceResponse
-import com.employee.models.Employee
+import com.employee.models.{Employee, S, SearchParameters, ServiceResponse}
 import org.scalatest.funsuite.AnyFunSuiteLike
 import com.employees.services.EmployeeService
 
@@ -12,6 +11,16 @@ class EmployeeServiceTest extends AnyFunSuiteLike {
 
   private def createEmployee(firstName: String, lastName: String): Employee = {
     new Employee(firstName, lastName)
+  }
+
+  private def createSearchParameters(firstName: String, lastName: String, roleName: String, departmentName: String): SearchParameters = {
+    var obj = new SearchParameters()
+    obj.firstName = firstName
+    obj.lastName = firstName
+    obj.roleName = firstName
+    obj.departmentName = firstName
+
+    obj
   }
 
   test("Save Role") {
@@ -46,6 +55,24 @@ class EmployeeServiceTest extends AnyFunSuiteLike {
 
   test("Delete Employee") {
     var results = EmployeeService.DeleteEmployee(createEmployee("Joe", "Bloggs"))
+
+    assertResults(results)
+  }
+
+  test("Search Employees") {
+    var results = EmployeeService.SearchEmployees(createSearchParameters("Joe", "Bloggs", "", ""))
+
+    assertResults(results)
+  }
+
+  test("Search Departments") {
+    var results = EmployeeService.SearchDepartments(createEmployee("Joe", "Bloggs"))
+
+    assertResults(results)
+  }
+
+  test("Search Roles") {
+    var results = EmployeeService.SearchRoles("Brand Manager")
 
     assertResults(results)
   }
