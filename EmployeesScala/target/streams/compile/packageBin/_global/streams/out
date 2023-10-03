@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/john.owens/Development/IntelliJ/EmployeesScala/EmployeesScala/target/scala-2.13/employeesscala_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/john.owens/Development/IntelliJ/EmployeesScala/EmployeesScala/target/scala-2.13/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/employee[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/john.owens/Development/IntelliJ/EmployeesScala/EmployeesScala/target/scala-2.13/classes/com/employee[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/employee/models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/john.owens/Development/IntelliJ/EmployeesScala/EmployeesScala/target/scala-2.13/classes/com/employee/models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/employee/models/ServiceResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/john.owens/Development/IntelliJ/EmployeesScala/EmployeesScala/target/scala-2.13/classes/com/employee/models/ServiceResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/employee/models/Employee.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/john.owens/Development/IntelliJ/EmployeesScala/EmployeesScala/target/scala-2.13/classes/com/employee/models/Employee.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/employee/services[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/john.owens/Development/IntelliJ/EmployeesScala/EmployeesScala/target/scala-2.13/classes/com/employee/services[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/employee/services/IEmployeeService.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/john.owens/Development/IntelliJ/EmployeesScala/EmployeesScala/target/scala-2.13/classes/com/employee/services/IEmployeeService.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/employees[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/john.owens/Development/IntelliJ/EmployeesScala/EmployeesScala/target/scala-2.13/classes/com/employees[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/employees/services[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/john.owens/Development/IntelliJ/EmployeesScala/EmployeesScala/target/scala-2.13/classes/com/employees/services[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/employees/services/EmployeeService$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/john.owens/Development/IntelliJ/EmployeesScala/EmployeesScala/target/scala-2.13/classes/com/employees/services/EmployeeService$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/employees/services/EmployeeService.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/john.owens/Development/IntelliJ/EmployeesScala/EmployeesScala/target/scala-2.13/classes/com/employees/services/EmployeeService.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

@@ -1,6 +1,7 @@
 package com.employee.models
 
-class Employee(FirstName: String, LastName: String) {
+class Employee(var FirstName: String, var LastName: String) {
+
   var roleName = ""
   var departmentName = ""
 
